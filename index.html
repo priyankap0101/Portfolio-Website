@@ -9,9 +9,10 @@
   <title>Portfolio website</title>
   <link rel="stylesheet" href="./index.css" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- swiper -->
-  <!-- <link rel="stylesheet" href="./swiper-bundle.min.css"> -->
 </head>
 
 <body>
@@ -38,17 +39,17 @@
             </a>
           </li>
 
-          <li class="nav_item">
+          <!-- <li class="nav_item">
             <a href="#skills" class="nav_link">
               <i class="uil uil-file-redo-alt  nav_icon"></i> Skills
             </a>
-          </li>
+          </li> -->
 
-          <li class="nav_item">
+          <!-- <li class="nav_item">
             <a href="#qualification" class="nav_link">
               <i class="uil uil-file-redo-alt  nav_icon"></i> Education
             </a>
-          </li>
+          </li> -->
 
           <li class="nav_item">
             <a href="#services" class="nav_link">
@@ -57,10 +58,10 @@
           </li>
 
           <li class="nav_item">
-              <a href="https://priyankapandharbale.netlify.app" class="nav_link">
-                <i class="uil uil-scenery"></i>  Portfolio
-              </a>
-            </li> 
+            <a href="https://priyankapandharbale.netlify.app" class="nav_link">
+              <i class="uil uil-scenery"></i> Portfolio
+            </a>
+          </li>
 
           <li class="nav_item">
             <a href="#contact" class="nav_link">
@@ -123,17 +124,17 @@
         <div class="home__img   one item">
           <img src="./img/a6.png" alt="Profile">
         </div>
-        
+
 
         <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt  home__scroll-mouse"></i>
-              <span class="home__scroll-name">
-                scroll down
-              </span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div> 
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt  home__scroll-mouse"></i>
+            <span class="home__scroll-name">
+              scroll down
+            </span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -142,47 +143,171 @@
     <section class="about section" id="about">
 
       <h2 class="section__title">
-        About Me <br>
-
+        About <br>
       </h2>
+
       <h4 class="section__subtitle">
-        My introduction
+        <!-- My introduction -->
       </h4>
-      <div class="me">
-        <p class="dataname">
-          I'm Priyanka
-        </p>
 
-        <div class="datasection">
-          <div class="data">
-            <h5> <i class="fa-solid fa-calendar-days"></i> Date of birth: 01 January 1997</h5>
-            <h5><i class="fa-solid fa-laptop-code"></i>Freelance: Available</h5>
-            <h5><i class="fa-solid fa-location-dot"></i>Address: Kolhapur,Maharashtra.</h5>
-            <h5><i class="fa-solid fa-globe"></i>Spoken Langages: Marathi,Hindi,English</h5>
+      <div class="wrap">
+        <div class="clip-block">
+          <a href="#" class="clip-each clip-gradient">
+            <div class="clip-caption"><i class="uil uil-tachometer-fast-alt hexsymbol"></i> <br>
+
+            </div>
+          </a>
+          <a href="#" class="clip-each clip-gradient">
+            <div class="clip-caption">
+              <!-- <i class="fa-solid fa-mobile-screen-button"></i> -->
+              <i class="fa-solid fa-laptop"></i>
+
+            </div>
+          </a>
+
+          <a href="#" class="clip-each clip-gradient">
+            <div class="clip-caption"><i class="fa-regular fa-lightbulb"></i></div>
+          </a>
+
+          <a href="#" class="clip-each clip-gradient">
+
+            <div class="clip-caption"><i class="fa-solid fa-rocket"></i></div>
+          </a>
+        </div> <!-- /clip-block -->
+
+        <div class="clip-block">
+          <a href="#" class="clip-tagline">
+
+            <h2> <strong>Fast</strong> </h1> <br>
+              <!-- Fast load times and lag free <br> interaction, my highest priority. -->
+
+          </a>
+          <a href="#" class="clip-tagline">
+            <h2>Responsive</h2> <br>
+            <!-- <br>My layouts will work on any <br> device, big or small. -->
+          </a>
+
+          <a href="#" class="clip-tagline">
+
+            <h2> Intuitive</h2>
+            <!-- Strong preference for easy to <br> use, intuitive UX/UI. -->
+
+
+          </a>
+          <a href="#" class="clip-tagline">
+
+            <h2>Dynamic</h2> <br>
+            <!-- <h3>Websites don't have to be static, I love <br> making pages come to life.</h3></a> -->
+          </a>
+        </div> <!-- /clip-block -->
+        <svg class="clip-svg">
+          <defs>
+            <clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+              <polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <svg class="clip-svg">
+          <defs>
+            <clipPath id="triangle-clip" clipPathUnits="objectBoundingBox">
+              <polygon points="1 0.03, 0.17 1, 1 1" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+
+      <div class="part2">
+
+        <div class="me">
+
+          <h4 class="question">Who's this girl?</h4>
+          <p class="dataname">
+            I'm a java developer from India. I build applications/API's in SpringBoot. You can often see me
+            exploring new  technologies,I do enjoy working with Spring, SpringBoot  and also frontend
+            technologies like html, css, JavaScript.
+          </p>
+
+          <div class="about__buttons ">
+            <button href="./Resume/PriyankaResume.pdf" class="button button--flex" onclick='download()'>
+              VIEW RESUME <i class="uil uil-download-alt button__icon"></i></button>
+            </button>
           </div>
-          <div class="data">
-            <h5><i class="fa-sharp fa-solid fa-flag"></i>Nationality: Indian</h5>
-            <h5><i class="fa-solid fa-phone"></i>Phone:9511285489</h5>
-            <h5><i class="fa-solid fa-envelope"></i>Email: pandharbalepr1997@gmail.com</h5>
-            <h5><i class="fa-brands fa-linkedin"></i>LinkedIn: linkedin.com/in/priyanka-pandharbale97</h5>
-          </div>
+
+
+
+
+
+
         </div>
-      </div>
-      <div class="about__buttons ">
-        <button href="./Resume/PriyankaResume.pdf" class="button button--flex" onclick='download()'>
-          Download CV<i class="uil uil-download-alt button__icon"></i></button>
-        </button>
-      </div>
-      </div>
 
-      
-  </div>
+
+        
+        <div id="wrapper">
+
+          <div class="skill_name classbox" id="skill_html">HTML</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar1 skillbar_box" id="skillbar_html"></div>
+            <div class="skill_bar_percent">85%</div>
+          </div>
+    
+          <div class="skill_name classbox" id="skill_css">CSS</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar2 skillbar_box" id="skillbar_css"></div>
+            <div class="skill_bar_percent">80%</div>
+          </div>
+    
+          <div class="skill_name classbox" id="skill_js">Javascript</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar3 skillbar_box" id="skillbar_js"></div>
+            <div class="skill_bar_percent">55%</div>
+          </div>
+
+          <div class="skill_name classbox" id="skill_bootstrap">Bootstrap</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar4 skillbar_box" id="skillbar_bootstrap"></div>
+            <div class="skill_bar_percent">70%</div>
+          </div>
+
+          <div class="skill_name classbox" id="skill_java">Java</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar5 skillbar_box" id="skillbar_java"></div>
+            <div class="skill_bar_percent">90%</div>
+          </div>
+
+          <div class="skill_name classbox" id="skill_spring">SpringBoot</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar6 skillbar_box" id="skillbar_spring"></div>
+            <div class="skill_bar_percent">60%</div>
+          </div>
+    
+
+          <div class="skill_name classbox" id="skill_Hibernate">Hibernate</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar7 skillbar_box" id="skillbar_Hibernate"></div>
+            <div class="skill_bar_percent">75%</div>
+          </div>
+
+          <div class="skill_name classbox " id="skill_sql">SQL</div>
+          <div class="skillbar_wrapper">
+            <div class="skillbar_bar8 skillbar_box" id="skillbar_sql"></div>
+            <div class="skill_bar_percent">80%</div>
+          </div>
+
+        </div>
+
+       
+          
+        
+      </div>
+      </div>
     </section>
 
-    </section>
+    
 
     <!-- skill -->
-    <section class="skills section" id="skills">
+    <!-- <section class="skills section" id="skills">
       <h2 class="section__title">
         Skills
       </h2>
@@ -194,83 +319,82 @@
 
         <div class="maincontainer">
           <div class="skl11">
-            <h4 class="htmlrating">
-              <h4 class="skillname">HTML</h4> <br>
-
+            <h4 class="skillname">HTML
               <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
               <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
+              <i class="uil uil-star skillstar"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+            </h4>
 
             </h4>
+          </div> -->
+
+          <!-- <div class="skl11">
+            <h4 class="htmlrating">
+              <h4 class="skillname">CSS
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+
+              </h4> -->
+              <!-- <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> -->
+
+
+            <!-- </h4>
+          </div>
+        </div> -->
+
+        <!-- <div class="maincontainer">
+          <div class="skl11">
+            <h4 class="htmlrating">
+              <h4 class="skillname">BOOTSTRAP
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
           </div>
 
           <div class="skl11">
             <h4 class="htmlrating">
-              <h4 class="skillname">CSS</h4> <br>
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <h4 class="skillname"> JAVASCRIPT -->
+                <!-- <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> -->
 
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
-            </h4>
+                <!-- <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
           </div>
         </div>
 
         <div class="maincontainer">
           <div class="skl11">
             <h4 class="htmlrating">
-              <h4 class="skillname">BOOTSTRAP</h4> <br>
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <h4 class="skillname"> SQL -->
+                <!-- <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> -->
 
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
-            </h4>
+                <!-- <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
           </div>
 
           <div class="skl11">
             <h4 class="htmlrating">
-              <h4 class="skillname"> JAVASCRIPT</h4> <br>
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <h4 class="skillname"> JAVA -->
+                <!-- <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> -->
 
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
-            </h4>
-          </div>
-        </div>
-
-        <div class="maincontainer">
-          <div class="skl11">
-            <h4 class="htmlrating">
-              <h4 class="skillname"> SQL</h4><br>
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
-            </h4>
-          </div>
-
-          <div class="skl11">
-            <h4 class="htmlrating">
-              <h4 class="skillname"> JAVA</h4><br>
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
-              <i class="uil uil-star skillstar"></i>
-            </h4>
+                <!-- <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i><i class="uil uil-star skillstar"></i>
+                <i class="uil uil-star skillstar"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
           </div>
         </div>
       </div>
 
-    </section>
+    </section> -->
     <!-- <h2 class="section__title">
           Skills
         </h2>
@@ -514,13 +638,13 @@
           
           
         </div>  -->
-    </section>
+    <!-- </section> -->
 
 
 
     <!-- Qualification -->
 
-
+<!-- 
     <section class="qualification section" id="qualification">
 
       <h2 class="section__title">
@@ -539,14 +663,14 @@
           </div>
         </div>
 
-        <div class="qualification__sections">
+        <div class="qualification__sections"> -->
           <!-- qualification content1  -->
 
-          <div class="qualification__content qualification_active" data-content id="education">
+          <!-- <div class="qualification__content qualification_active" data-content id="education"> -->
 
             <!-- qualification content 1 -->
 
-            <div class="qualification__data">
+            <!-- <div class="qualification__data">
               <div>
                 <h3 class="qualification__title"> B.E(C.S.E)</h3>
                 <span class="qualification__subtitle">Ashokrao mane group of institutions.</span>
@@ -557,13 +681,13 @@
               </div>
 
 
-            </div>
+            </div> -->
 
 
             <!-- qualification content 2 -->
 
 
-            <div class="qualification__data">
+            <!-- <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">DIPLOMA(I.T)</h3>
                 <span class="qualification__subtitle">Government Polytechnic kolhapur</span>
@@ -577,12 +701,12 @@
                 <span class="qualification__rounder"></span>
                 <span class="qualification__line"></span>
               </div>
-            </div>
+            </div> -->
 
 
 
             <!-- qualification content 3 -->
-
+<!-- 
             <div class="qualification__data">
               <div>
                 <h3 class="qualification__title"> High School</h3>
@@ -601,7 +725,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- services -->
@@ -837,8 +961,6 @@
               <span class="name">Name:</span>
               <input type="text" id="username" name="name " placeholder="ENTER YOUR NAME" />
             </label>
-            <!-- <label for="name" class="contact__label">Name</label> -->
-            <!-- <input type="text" class="contact__input"  name="name" placeholder="Name"> -->
 
           </div>
           <div class="contact__content">
@@ -847,14 +969,10 @@
               <span class="name">Email:</span>
               <input type="email" id="mail" name="email" placeholder="ENTER YOUR EMAIL ID" />
             </label>
-            <!-- <label for="mail" class="contact__label">Email</label> -->
-            <!-- <input type="email" class="contact__input" name="mail" placeholder="Email"> -->
 
           </div>
         </div>
         <div class="contact__content">
-          <!-- <label for="project" class="contact__label">Project</label> -->
-          <!-- <input type="text" class="contact__input" name="project" placeholder="Project"> -->
 
           <label>
             <span class="name">Project:</span>
@@ -865,9 +983,6 @@
         </div>
 
         <div class="contact__content">
-          <!-- <label for="msg" class="contact__label">Message</label> -->
-          <!-- <textarea name="msg" id="" cols="0" rows="7" class="contact__input" placeholder="Message"></textarea> -->
-
 
           <label>
             <span class="msg">Message:</span>
@@ -909,21 +1024,9 @@
                 Location
 
               </h3>
-              <h4 class="contact__subtitle">Kolhapur</h>
+              <h4 class="contact__subtitle">India</h>
             </div>
           </div>
-
-          <!-- <div class="contact__information">
-              <i class="uil uil-phone contact__icon  call"></i> -->
-
-          <!-- <div>
-                <h3 class="contact__title ">
-                  Call Me
-
-                </h3>
-                <span class="contact__subtitle">89877678</span>
-              </div> -->
-          <!-- </div> -->
         </div>
 
 
@@ -982,7 +1085,8 @@
 
 
 
-
+  <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
+  <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
   <script src="index.js">
 
   </script>
